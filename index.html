@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="contact-form-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <span class="form-title">Contact us</span>
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                <input type="text" name="name" class="input" placeholder="Your Name" />
+                <input type="email" name="email" class="input" placeholder="Your Email" />
+                <textarea name="message" cols="30" rows="5" placeholder="Enter Your message" class="input" required></textarea>
+                <button class="submit" type="submit">Submit</button>
+            </form>
+            <div class="social-links">
+                <a href="https://t.me/karas4ik" target="_blank">
+                    <img src="telegram-icon.png" alt="Telegram">
+                </a>
+                <a href="ponomarevmatvej601@gmail.com" target="_blank">
+                    <img src="email-icon.png" alt="Email">
+                </a>
+                <a href="https://discord.com/dr.karas_" target="_blank">
+                    <img src="discord-icon.png" alt="Discord">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
